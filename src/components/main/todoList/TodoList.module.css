@@ -1,0 +1,22 @@
+.list{
+  display: grid;
+  grid-template-columns: 1fr 80px 80px;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: #FFF;
+  padding: 10px 15px;
+  border: 1px solid rgb(11, 0, 128);
+  gap: 10px;
+}
+.list button{
+  outline: none;
+  border: 1px solid rgb(11, 0, 128);
+  background-color: rgb(11, 0, 128);;
+  color: #FFF;
+  border-radius: 15px;
+
+}
+.list div{
+  display: flex;
+  align-items: center;
+}
